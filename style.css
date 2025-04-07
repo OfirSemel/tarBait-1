@@ -55,8 +55,6 @@ body {
 }
 
 
-
-
 .container{
     display: flex;
     justify-content: center;
@@ -85,7 +83,7 @@ body {
 }
 
 
-#header{
+#p-section1{
 border: 1px solid #000;
 border-radius: 10px;
 background-color: #f8f9fa;
@@ -266,19 +264,26 @@ align-items: center;
     transition: 0.3s;
 }
 
+
+
 .footer{
+    background-size: cover;    
+    width: 100%;
+}
+
+
+.footer-img{
+  background-image: url('https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1642597404/direct/shutterstock_1724607019_suhgad.jpg');
+    width: 100%;    
+    object-fit: cover;
+    border-radius: 10px;
     background-size: cover;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #navbarNav{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .navbar-nav{
@@ -287,6 +292,10 @@ align-items: center;
     align-items: center;
     margin-left: 20px;
 }
+
+
+
+
 
 
 
